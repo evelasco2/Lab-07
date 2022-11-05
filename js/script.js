@@ -9,7 +9,7 @@ function init() {
   }
 
   var entrybut =document.getElementById('entrybutton');
-  entrybut.addEventListener('click' event);
+  entrybut.addEventListener('click', event);
 }
 
 window.addEventListener('load', init);
