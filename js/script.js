@@ -8,7 +8,7 @@ function init() {
     textout.innerHTML = inp.value;
   }
 
-  var entrybut =document.getElementById('entrybutton');
+  var entrybut = document.getElementById('entrybutton');
   entrybut.addEventListener('click', event);
 }
 
