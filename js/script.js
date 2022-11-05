@@ -5,7 +5,7 @@ function init() {
     alert('Eduardo Velasco: ' + inp.value);
 
     var textout = document.getElementById('textoutput');
-    textout.innherHTML = inp.value;
+    textout.innerHTML = inp.value;
   }
 
   var entrybut =document.getElementById('entrybutton');
