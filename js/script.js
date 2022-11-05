@@ -2,14 +2,14 @@ function init() {
 //add your javascript between these two lines of code
   function myEventFunction() {
     var inp = document.getElementById('entryinput');
-    alert(inp.value);
+    alert('Eduardo Velasco ' + inp.value);
+
+    var textout = document.getElementById('textoutput')
+    textout.innherHTML = inp.value;
   }
 
-  entrybutton.addEventListener('click' myEventFunction);
-
-  entrybutton.addEventListener('click' function) {
-    textoutput.innherHTML = 'inp.value';
-  }
+  var entrybut =document.getElementById('entrybutton');
+  entrybut.addEventListener('click' myEventFunction);
 }
 
 window.addEventListener('load', init);
