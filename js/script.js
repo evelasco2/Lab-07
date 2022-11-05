@@ -4,7 +4,7 @@ function init() {
     var inp = document.getElementById('entryinput');
     alert('Eduardo Velasco: ' + inp.value);
 
-    var textout = document.getElementById('textoutput')
+    var textout = document.getElementById('textoutput');
     textout.innherHTML = inp.value;
   }
 
